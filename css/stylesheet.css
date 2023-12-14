@@ -45,6 +45,32 @@ header::after {
     margin: auto;
 }
 
+h2 {
+    margin-top: 1%;
+    color: #ae120e;
+    font-family: 'Titan One', cursive;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+h3 {
+    margin-top: 1%;
+    color: #fff;
+    font-family: 'Titan One', cursive;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+h4 {
+    margin-top: 1%;
+    color: #fff;
+    font-family: 'Titan One', cursive;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
 nav {
     
     margin-top: 10px;
