@@ -35,20 +35,29 @@
         <div class = "pdf_container">
             <div id = "pdf_viewer"></div>
             <script>
-                const pdfjs_lib = window["pdfjs-dist/build/pdf"];
-                const pdfurl = "resources/graphic_design_portfolio";
-                pdfjs_lib.getDocument(pdfurl).then(pdfDoc => {
-                    pdfDoc.getPage(1).then(page => {
-                        const canvas = document.createElement('canvas');
-                        const context = canvas.getContext('2d');
-                        const viewport = page.getViewport({ scale: 1 });
+                const pdfjsLib = window['js/pdfjs-dist/build/pdf'];
+                const pdfUrl = 'resources/graphic_design_portfolio.pdf';
+                
+                pdfjsLib.getDocument(pdfUrl).then(pdfDoc => {
+                pdfDoc.getPage(1).then(page => {
+                    const canvas = document.createElement('canvas');
+                    const context = canvas.getContext('2d');
+                    const viewport = page.getViewport({ scale: 1 });
 
-                        canvas.width = viewport.width;
-                        canvas.height = viewport.height;
+                    // Set canvas dimensions to match viewport
+                    canvas.width = viewport.width;
+                    canvas.height = viewport.height;
+
+                    // Append canvas to the container
+                    document.getElementById('pdf-viewer').appendChild(canvas);
+
+                    // Render the PDF page on the canvas
+                    page.render({ canvasContext: context, viewport });
                     });
                 });
             </script>
         </div>
+        
         <h2>Animation</h2>
 
     </div>
