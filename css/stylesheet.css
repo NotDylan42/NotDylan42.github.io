@@ -37,6 +37,7 @@ header::after {
     background-color: #fff;
     border-radius: 20px;
     position: absolute;
+    justify-content: center;
     bottom: 0;
     border: 2px solid #ae120e;
 }
