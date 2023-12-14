@@ -64,6 +64,11 @@ nav a {
     font-weight: bold;
 }
 
+nav a:hover {
+    background: #ae120e;
+    border-radius: 5px;
+}
+
 section {
     padding: 40px;
     text-align: center;
