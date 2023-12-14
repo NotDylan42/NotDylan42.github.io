@@ -144,6 +144,7 @@ section {
 
 .social-icons a {
     color: #fff; /* Icon color */
+    font-size: 24px;
     margin: 0 10px; /* Add some spacing between icons */
     text-decoration: none;
 }
