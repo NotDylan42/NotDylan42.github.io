@@ -78,7 +78,7 @@ nav a:hover {
 .gallerbee {
     width: 50%;
     background-color: #fff;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     flex: 1;
     border-radius: 20px;
@@ -94,7 +94,7 @@ nav a:hover {
     pointer-events: none;
 }
 .gallerbee h2 {
-    font-color: #AE120E;
+    color: #OOO;
     font-weight: bold;
     margin-bottom: 2%;
 }
