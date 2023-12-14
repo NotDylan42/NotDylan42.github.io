@@ -68,8 +68,9 @@ nav a {
 }
 
 nav a:hover {
-    background: #ae120e;
-    border-radius: 5px;
+    background: #FDAB36;
+    text-color: #FFFFFF;
+    border-radius: 2%;
 }
 
 .gallerbee {
