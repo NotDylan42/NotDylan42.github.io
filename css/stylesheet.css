@@ -26,7 +26,7 @@ header {
 header img {
     width: 32%;
     height: auto;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     pointer-events: none;
 }
 
@@ -41,6 +41,7 @@ header::after {
     bottom: 2%;
     border: 2px solid #ae120e;
     z-index: -1;
+    margin-bottom: 2%;
     margin: auto;
 }
 
