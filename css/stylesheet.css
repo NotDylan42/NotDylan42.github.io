@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -19,16 +20,13 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative; /* Add relative positioning */
+    position: relative;
 }
 
 header img {
     width: 32%;
     height: auto;
-    margin-top: 5%;
-    margin-bottom: 4%;
-    position: absolute;
-    justify-center: center;
+    margin-bottom: 10px;
 }
 
 header::after {
@@ -40,7 +38,12 @@ header::after {
     border-radius: 20px;
     position: absolute;
     bottom: 0;
+    left: 0;
     border: 2px solid #ae120e;
+}
+
+nav {
+    margin-top: 10px;
 }
 
 nav ul {
