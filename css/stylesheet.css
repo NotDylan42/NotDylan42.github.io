@@ -72,6 +72,7 @@ nav a:hover {
 }
 
 .gallerbee {
+    width: 50%;
     background-color: #fff;
     padding: 20px;
     text-align: center;
