@@ -93,6 +93,11 @@ nav a:hover {
     margin-bottom: 20px; /* Adjust as needed */
     pointer-events: none;
 }
+.gallerbee h2 {
+    color: #AE120E;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
 
 section {
     padding: 40px;
