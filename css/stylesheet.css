@@ -114,7 +114,9 @@ nav a:hover {
 .mySlides img {
     width: 100%;
     height: 100%;
+    margin-bottom: 1%;
 }
+
 section {
     padding: 40px;
     text-align: center;
