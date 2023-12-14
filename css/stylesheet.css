@@ -21,7 +21,7 @@ header {
 }
 
 header img {
-    max-width: 100px; /* Adjust the width of your logo */
+    max-width: 400px; /* Adjust the width of your logo */
     height: auto;
     margin-bottom: 10px;
 }
