@@ -22,6 +22,13 @@ header {
     position: relative;
 }
 
+.slideshow-container {
+    max-width: 100%;
+    max-height: 400px;
+    position: relative;
+    margin: auto;
+}
+
 header img {
     width: 32%;
     height: auto;
