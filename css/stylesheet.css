@@ -110,6 +110,21 @@ section {
     flex: 1;
 }
 
+.social-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #fff; /* Icon color */
+    margin: 0 10px; /* Add some spacing between icons */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    /* Change color on hover */
+}
+
 footer {
     background: #333;
     color: #fff;
