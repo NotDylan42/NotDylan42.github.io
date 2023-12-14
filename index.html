@@ -32,8 +32,23 @@
         <img src = "resources/home_dark_mode.jpg" alt = "image2" width = 47% height = 30%">
 
         <h2>Graphic Design</h2>
-        <div class = "pdf_containter">
-            <embed src = "resources/graphic_design_portfolio.pdf" type = "application/pdf" width = "100%" height = "600px"> 
+        <div class = "pdf_container">
+            <div id = "pdf_viewer"></div>
+            <script>
+                const pdfjs_lib = window["pdfjs-dist/build/pdf"];
+                const pdfurl = "resources/graphic_design_portfolio";
+                pdfjs_lib.getDocument(pdfurl).then(pdfDoc => {
+                    pdfDoc.getPage(1).then(page => {
+                        const canvas = document.createElement('canvas');
+                        const context = canvas.getContext('2d');
+                        const viewport = page.getViewport({ scale: 1 });
+
+                        canvas.width = viewport.width;
+                        canvas.height = viewport.height;
+                    });
+                });
+            </script>
+        </div>
         <h2>Animation</h2>
 
     </div>
