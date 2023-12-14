@@ -107,7 +107,14 @@ nav a:hover {
     position: relative;
     margin-bottom: 1%;
 }
+.mySlides {
+    display: none;
+}
 
+.mySlides img {
+    width: 100%;
+    height: 100%;
+}
 section {
     padding: 40px;
     text-align: center;
