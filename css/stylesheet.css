@@ -38,10 +38,10 @@ header::after {
     background-color: #fff;
     border-radius: 20px;
     position: absolute;
-    bottom: 0;
-    left: 50%;
+    bottom: 2%;
     border: 2px solid #ae120e;
     z-index: -1;
+    margin: auto;
 }
 
 nav {
