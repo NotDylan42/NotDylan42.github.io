@@ -71,6 +71,23 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.gallerbee {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    border-radius: 20px;
+    border: 2px solid #ae120e;
+    z-index: -1;
+    margin: auto;
+}
+
+.gallerbee img {
+    max-width: 100%; /* Make sure images don't exceed the container width */
+    height: auto;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
 section {
     padding: 40px;
     text-align: center;
