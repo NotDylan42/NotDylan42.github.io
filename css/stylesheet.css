@@ -65,12 +65,14 @@ nav a {
     color: #AE120E;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px 20px;
+    transition: color 0.3s;
 }
 
 nav a:hover {
     background: #FDAB36;
-    text-color: #FFFFFF;
-    border-radius: 2%;
+    border-radius: 5px;
+    color: #fff;
 }
 
 .gallerbee {
