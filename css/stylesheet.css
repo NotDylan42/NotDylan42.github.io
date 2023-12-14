@@ -90,9 +90,9 @@ nav a:hover {
 }
 
 .gallerbee img {
-    max-width: 100%; /* Make sure images don't exceed the container width */
+    max-width: 100%; 
     height: auto;
-    margin-bottom: 20px; /* Adjust as needed */
+    margin-bottom: 2%;
     pointer-events: none;
 }
 .gallerbee h2 {
@@ -116,6 +116,6 @@ footer {
     padding: 10px;
     text-align: center;
     position: fixed;
-    bottom: 0; /* Adjust the distance from the bottom */
+    bottom: 0; 
     width: 100%;
 }
