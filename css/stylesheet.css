@@ -34,7 +34,7 @@ header::after {
     width: 20%;
     height: 40px; /* Adjust the height as needed */
     background-color: #fff;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     position: absolute;
     bottom: 0;
     left: 0;
