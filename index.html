@@ -27,36 +27,52 @@
 
     <div class = "gallerbee">
         <h2>Illustrations</h2>
-        <!-- Place your images or content here -->
+        <!-- GALLERBEE -->
         <img src = "resources/home_light_mode.jpg" alt = "image1" width = 47% height = 30%">
         <img src = "resources/home_dark_mode.jpg" alt = "image2" width = 47% height = 30%">
 
         <h2>Graphic Design</h2>
-        <div class = "pdf_container">
-            <div id = "pdf_viewer"></div>
-            <script>
-                const pdfjsLib = window['js/pdfjs-dist/build/pdf'];
-                const pdfUrl = 'resources/graphic_design_portfolio.pdf';
-                
-                pdfjsLib.getDocument(pdfUrl).then(pdfDoc => {
-                pdfDoc.getPage(1).then(page => {
-                    const canvas = document.createElement('canvas');
-                    const context = canvas.getContext('2d');
-                    const viewport = page.getViewport({ scale: 1 });
-
-                    // Set canvas dimensions to match viewport
-                    canvas.width = viewport.width;
-                    canvas.height = viewport.height;
-
-                    // Append canvas to the container
-                    document.getElementById('pdf-viewer').appendChild(canvas);
-
-                    // Render the PDF page on the canvas
-                    page.render({ canvasContext: context, viewport });
-                    });
-                });
-            </script>
+        <div class="slideshow-container">
+            <div class = "slideshow_slides">
+                <img src="image3.jpg" alt="Image 3">
+            </div>
+            <div class="slideshow_slides">
+                <img src="image4.jpg" alt="Image 4">
+            </div>
+            
+        <!-- Navigation dots -->
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
         </div>
+
+        <!-- JavaScript for the slideshow -->
+        <script>
+            let slideIndex = 0;
+            function showSlides() {
+                let i;
+                const slides = document.getElementsByClassName("mySlides");
+                const dots = document.getElementsByClassName("dot");
+
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1;
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 2000); // Change slide every 2 seconds
+            }
+
+            // Call the function to start the slideshow
+            showSlides();
+        </script>
+    </div>
         
         <h2>Animation</h2>
 
