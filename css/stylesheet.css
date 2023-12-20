@@ -1,4 +1,4 @@
-html, body {
+html, body, footer {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #1D2E47, #DA6627);
     color: #fff;
 }
 
