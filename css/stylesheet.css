@@ -46,7 +46,7 @@ header {
 header img {
     width: 32%;
     height: auto;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     pointer-events: none;
 }
 
@@ -95,7 +95,6 @@ nav ul {
 
 nav li {
     display: inline;
-    margin-right: 20px;
 }
 
 nav a {
