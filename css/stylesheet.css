@@ -116,7 +116,7 @@ nav a:hover {
 .gallerbee img {
     max-width: 100%; 
     height: auto;
-    margin-bottom: 2%;
+    margin-bottom: 0.5%;
     pointer-events: none;
 }
 .gallerbee h2 {
