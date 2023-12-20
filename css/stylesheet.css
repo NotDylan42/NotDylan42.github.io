@@ -1,9 +1,12 @@
+html {
+    background: linear-gradient(to bottom, #1D2E47, #DA6627);
+}
+
 html, body, footer {
     height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, #1D2E47, #DA6627);
     pointer-events: none;
 }
 
