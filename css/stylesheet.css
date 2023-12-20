@@ -35,7 +35,7 @@ header img {
     pointer-events: none;
 }
 
-header::after {
+navigational_bar {
     content: '';
     display: block;
     width: 33%;
