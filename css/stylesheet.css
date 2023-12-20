@@ -28,8 +28,7 @@ body {
     bottom: 2%;
     z-index: -1;
     border: 2px solid #ae120e;
-    margin-bottom: 2%;
-    margin: auto;
+    margin-top: 3%;
 }
 
 
@@ -91,6 +90,7 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 nav li {
@@ -103,6 +103,7 @@ nav a {
     text-decoration: none;
     font-family: 'Titan One', cursive;
     font-weight: bold;
+    font-size: 0.9vw;
     padding: 7px 20px;
     transition: color 0.3s;
 }
