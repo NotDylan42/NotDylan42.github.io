@@ -26,6 +26,7 @@ body {
     border-radius: 20px;
     position: absolute;
     bottom: 2%;
+    z-index: -1;
     border: 2px solid #ae120e;
     margin-bottom: 2%;
     margin: auto;
