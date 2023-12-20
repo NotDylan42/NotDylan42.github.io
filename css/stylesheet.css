@@ -4,6 +4,7 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     background: linear-gradient(to bottom, #1D2E47, #DA6627);
+    pointer-events: none;
 }
 
 body {
