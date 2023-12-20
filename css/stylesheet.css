@@ -17,6 +17,22 @@ body {
     color: #fff;
 }
 
+.navigational_bar {
+    content: '';
+    display: block;
+    width: 33%;
+    height: 40px; /* Adjust the height as needed */
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 2%;
+    border: 2px solid #ae120e;
+    z-index: -1;
+    margin-bottom: 2%;
+    margin: auto;
+}
+
+
 header {
     padding: 20px;
     margin-top: 1%;
@@ -35,20 +51,6 @@ header img {
     pointer-events: none;
 }
 
-.navigational_bar {
-    content: '';
-    display: block;
-    width: 33%;
-    height: 40px; /* Adjust the height as needed */
-    background-color: #fff;
-    border-radius: 20px;
-    position: absolute;
-    bottom: 2%;
-    border: 2px solid #ae120e;
-    z-index: -1;
-    margin-bottom: 2%;
-    margin: auto;
-}
 
 h2 {
     margin-top: 1%;
