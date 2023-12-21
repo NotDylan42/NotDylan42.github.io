@@ -172,13 +172,13 @@ nav a:hover {
     margin: auto;
 }
 
-img {
+.comic_pages img {
     width: 100%;
     height: auto;
     display: none;
 }
 
-img:first-child {
+.comic_pages img:first-child {
     display: block;
 }
 
@@ -186,7 +186,7 @@ img:first-child {
     margin-top: 20px;
 }
 
-img {
+.comic_navigator img {
     width: 40px; /* Adjust the width as needed */
     height: 40px; /* Adjust the height as needed */
     cursor: pointer;
@@ -194,6 +194,6 @@ img {
 }
 
 /* Optional: Add some styling for hover effects */
-img:hover {
+.comiv_navigator img:hover {
     opacity: 0.8;
 }
