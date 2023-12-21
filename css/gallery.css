@@ -186,6 +186,10 @@ nav a:hover {
     margin-top: 20px;
 }
 
+a {
+    display: inline-block; /* Make the entire anchor clickable */
+    margin: 0 5px;
+}
 .comic_navigator img {
     width: auto; /* Adjust the width as needed */
     height: auto; /* Adjust the height as needed */
