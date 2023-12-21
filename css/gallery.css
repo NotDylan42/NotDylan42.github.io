@@ -1,10 +1,172 @@
-.slider-container {
+html {
+    background: linear-gradient(to bottom, #1D2E47, #DA6627);
+}
+
+html, body, footer {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sintony', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    color: #fff;
+}
+
+.navigational_bar {
+    content: '';
+    display: block;
+    width: 33%;
+    height: 40px; /* Adjust the height as needed */
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 2%;
+    z-index: -1;
+    border: 2px solid #ae120e;
+    margin-top: 3%;
+}
+
+
+header {
+    padding: 20px;
+    margin-top: 1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header img {
+    width: 32%;
+    height: auto;
+    margin-bottom: 3%;
+    pointer-events: none;
+}
+
+
+h2 {
+    margin-top: 1%;
+    color: #ae120e;
+    font-family: 'Titan One', cursive;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Titan One', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    color: #fff;
+    font-family: 'Titan One', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inside_header {
+    color: #ae120e;
+    font-family: 'Titan One', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: #000;
+    font-size: 0.6vw;
+    font-family:  'Sintony', sans-serif;
+}
+
+nav {
+    margin-top: 10px;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #AE120E;
+    text-decoration: none;
+    font-family: 'Titan One', cursive;
+    font-weight: bold;
+    font-size: 0.9vw;
+    padding: 7px 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    background: #FDAB36;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.gallerbee {
+    width: 50%;
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+    flex: 1;
+    border-radius: 20px;
+    border: 2px solid #ae120e;
+    z-index: -1;
+    margin: auto;
+}
+
+.gallerbee img {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 0.5%;
+    pointer-events: none;
+}
+.gallerbee h2 {
+    margin-top: 1%;
+    color: #ae120e;
+    font-family: 'Titan One', cursive;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.social-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px; /* Add some spacing between icons */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ae120e;
+}
+
+.comic_reader {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.slider {
+.comic_pages {
     overflow: hidden;
     width: 80%;
     margin: auto;
