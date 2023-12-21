@@ -35,4 +35,6 @@ function goToLast() {
     showSlide(currentIndex);
 }
 
-showSlide(currentIndex);
+document.addEventListener('DOMContentLoaded', function() {
+    showSlide(currentIndex);
+});
