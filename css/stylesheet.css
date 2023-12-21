@@ -73,6 +73,13 @@ h4 {
     text-align: center;
 }
 
+.inside_header {
+    color: #ae120e;
+    font-family: 'Titan One', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
 p {
     color: #000;
     font-size: 0.6vw;
