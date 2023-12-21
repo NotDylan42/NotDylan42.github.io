@@ -187,8 +187,8 @@ nav a:hover {
 }
 
 .comic_navigator img {
-    width: 40px; /* Adjust the width as needed */
-    height: 40px; /* Adjust the height as needed */
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
     cursor: pointer;
     margin: 0 5px;
 }
