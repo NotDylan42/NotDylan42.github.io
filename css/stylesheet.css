@@ -73,6 +73,12 @@ h4 {
     text-align: center;
 }
 
+p {
+    color: #000;
+    font-size: 0.6vw;
+    font-family:  'Sintony', sans-serif;
+}
+
 nav {
     margin-top: 10px;
     z-index: 1;
@@ -131,6 +137,8 @@ nav a:hover {
     margin-bottom: 2%;
 }
 
+
+
 .slideshow-container {
     text-align: center;
 }
@@ -152,6 +160,22 @@ nav a:hover {
     background-color: #717171;
 }
 
+ .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .id_img {
+    max-width: 25%;
+    max-height:auto;
+  }
+  
+  .id_text {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 20%;
+  }
 .social-icons {
     margin-top: 20px;
     text-align: center;
