@@ -1,0 +1,37 @@
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+img:first-child {
+    display: block;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+img {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+/* Optional: Add some styling for hover effects */
+img:hover {
+    opacity: 0.8;
+}
