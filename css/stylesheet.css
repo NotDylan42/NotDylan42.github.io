@@ -163,18 +163,17 @@ nav a:hover {
  .image_descriptor {
     display: flex;
     align-items: center;
-    justify-content: center;
   }
 
  .id_img {
-    max-width: 25%;
+    max-width: 35%;
     max-height:auto;
   }
   
   .id_text {
     font-size: 18px;
     padding-left: 20px;
-    padding-top: 20%;
+    padding-top: 5%;
   }
 .social-icons {
     margin-top: 20px;
