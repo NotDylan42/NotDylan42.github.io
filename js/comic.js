@@ -1,5 +1,5 @@
 let currentIndex = 0;
-const slides = document.querySelectorAll('.slider img');
+const slides = document.querySelectorAll('.comic_pages img');
 
 function showSlide(index) {
     slides.forEach((slide, i) => {
