@@ -124,13 +124,15 @@ nav a:hover {
 .gallerbee {
     width: 50%;
     background-color: #fff;
-    padding: 5px;
-    text-align: center;
     flex: 1;
     border-radius: 20px;
     border: 2px solid #ae120e;
+    
+    padding: 5px;
+    padding-bottom:2%;
+    margin: auto auto 2% auto;
+    text-align: center;   
     z-index: -1;
-    margin: auto;
 }
 
 .gallerbee img {
