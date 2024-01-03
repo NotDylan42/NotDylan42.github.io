@@ -78,12 +78,15 @@ h4 {
     font-family: 'Titan One', cursive;
     font-weight: bold;
     text-align: center;
+    font-size: 1.2vw;
 }
 
 p {
     color: #000;
-    font-size: 0.6vw;
+    font-size: 0.9vw;
     font-family:  'Sintony', sans-serif;
+    font-weight: bold;
+    color: #AE120E;
 }
 
 nav {
